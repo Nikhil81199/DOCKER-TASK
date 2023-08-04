@@ -1,0 +1,10 @@
+FROM centos:7
+RUN yum update -y && yum install httpd -y
+RUN yum install unzip -y
+RUN curl -O https://www.free-css.com/assets/files/free-css-templates/download/page293/photosec.zip
+RUN unzip photosec.zip
+RUN mv photosec-html/* /var/www/html/
+EXPOSE 80/tcp
+CMD ["httpd", "-D", "FOREGROUND"]
+~
+
