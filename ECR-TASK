@@ -1,0 +1,16 @@
+
+
+1) Create IAM user in aws with Progamatic Access
+Attached Polict to user new user ---xyz
+1.	AMZ EC2 Container Registry Full Access
+2.	AMZ Elastic Container Registry Public Full Access
+Launch Instance and Take SSH –Anywhere
+2) aws configure
+Put Access_key
+Put /Secret_key
+Put region name
+Put none
+3) Go to AWS ECR
+Create new repository
+Click on view push command 
+
